@@ -1,0 +1,91 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*Geral*/
+body{
+    background-color: #17062A;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cima{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.esquerda h2{
+    color: #FFF14C;
+}
+.direita{
+    display: flex;
+    color: #FFF14C;
+    font-size: 15px;
+}
+.dois ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.seletor{
+    display: flex;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E0836;
+    width: 360px;
+    height: 100px;
+    margin: 10px;
+}
+.centro input{
+    width: 360px;
+    height: 50px;
+    border-radius: 10px;
+    color: #FFF14C;
+    background-color: #331B4D;
+}
+.baixo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E0836;
+}
+.baixo button{
+    background-color:  #331B4D;
+    color: #FFF14C;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: outset #851C9C;
+    margin: 5px;
+
+}
+.baixo .reset{
+    background-color: #56077C;
+    color: white;
+}
+.baixoesquerda{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.baixodireita{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.baixo .del{
+    background-color: #56077C;
+    color: white;
+}
+.baixo .buttonigual{
+    background-color: #00DECF;
+    color: black;
+}
